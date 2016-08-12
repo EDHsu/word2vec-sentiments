@@ -13,7 +13,9 @@ from random import shuffle
 import logging
 import os.path
 import sys
-import cPickle as pickle
+
+#import cPickle as pickle
+import _pickle as pickle
 
 program = os.path.basename(sys.argv[0])
 logger = logging.getLogger(program)
